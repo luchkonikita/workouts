@@ -1,0 +1,9 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["standard", "standard-jsx", "standard-react"],
+  "plugins": ["react"],
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/jsx-no-bind": 0
+  }
+}

@@ -1,0 +1,59 @@
+exports[`App renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }>
+  <RCTNavigator
+    interactivePopGestureEnabled={undefined}
+    onNavigationComplete={[Function]}
+    requestedTopOfStack={0}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+    vertical={undefined}>
+    <RCTNavItem
+      initialRoute={
+        Object {
+          "component": [Function],
+          "rightButtonSystemIcon": "add",
+          "tintColor": undefined,
+          "title": "Workouts",
+          "titleTextColor": undefined,
+        }
+      }
+      rightButtonSystemIcon="add"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "white",
+            "bottom": 0,
+            "left": 0,
+            "overflow": "hidden",
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          Object {
+            "marginTop": 64,
+          },
+          undefined,
+        ]
+      }
+      tintColor={undefined}
+      title="Workouts"
+      titleTextColor={undefined}
+      translucent={true}>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail">
+        Home Screen
+      </Text>
+    </RCTNavItem>
+  </RCTNavigator>
+</View>
+`;

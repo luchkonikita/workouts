@@ -5,6 +5,7 @@ node_js:
 script:
   - yarn test
   - yarn run flow
+  - yarn run lint
 
 cache:
   yarn: true

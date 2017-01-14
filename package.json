@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest --setupTestFrameworkScriptFile ./test/setup.js",
-    "flow": "flow; test $? -eq 0 -o $? -eq 2"
+    "flow": "flow; test $? -eq 0 -o $? -eq 2",
+    "lint": "eslint ./index.ios.js ./app"
   },
   "dependencies": {
     "react": "~15.4.0-rc.4",

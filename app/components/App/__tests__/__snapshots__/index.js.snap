@@ -20,9 +20,9 @@ exports[`App renders correctly 1`] = `
         Object {
           "component": [Function],
           "rightButtonSystemIcon": "add",
-          "tintColor": undefined,
+          "tintColor": "#2c81eb",
           "title": "Workouts",
-          "titleTextColor": undefined,
+          "titleTextColor": "#2a2a2a",
         }
       }
       rightButtonSystemIcon="add"
@@ -38,21 +38,761 @@ exports[`App renders correctly 1`] = `
             "top": 0,
           },
           Object {
+            "justifyContent": "flex-start",
             "marginTop": 64,
           },
           undefined,
         ]
       }
-      tintColor={undefined}
+      tintColor="#2c81eb"
       title="Workouts"
-      titleTextColor={undefined}
+      titleTextColor="#2a2a2a"
       translucent={true}>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail">
-        Home Screen
-      </Text>
+      <ScrollView
+        automaticallyAdjustContentInsets={false}
+        dataSource={
+          ListViewDataSource {
+            "items": 4,
+          }
+        }
+        initialListSize={10}
+        onContentSizeChange={[Function]}
+        onEndReachedThreshold={1000}
+        onKeyboardDidHide={undefined}
+        onKeyboardDidShow={undefined}
+        onKeyboardWillHide={undefined}
+        onKeyboardWillShow={undefined}
+        onLayout={[Function]}
+        onScroll={[Function]}
+        pageSize={1}
+        removeClippedSubviews={true}
+        renderRow={[Function]}
+        scrollEventThrottle={50}
+        scrollRenderAheadDistance={1000}
+        stickyHeaderIndices={Array []}
+        style={
+          Object {
+            "backgroundColor": "#fcfcfc",
+            "padding": 12,
+          }
+        }>
+        <View
+          style={
+            Array [
+              Object {
+                "borderRadius": 2,
+                "borderWidth": 1,
+                "marginBottom": 12,
+                "shadowColor": "#2a2a2a",
+                "shadowOffset": Object {
+                  "height": 2,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.1,
+              },
+              Object {
+                "backgroundColor": "#e6f4f0",
+                "borderColor": "#a9dfd0",
+              },
+            ]
+          }>
+          <View
+            style={
+              Array [
+                Object {
+                  "borderBottomWidth": 1,
+                  "padding": 12,
+                },
+                Object {
+                  "borderColor": "#a9dfd0",
+                },
+              ]
+            }>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                  },
+                  Object {
+                    "color": "#1a906f",
+                  },
+                ]
+              }>
+              Awesome biceps workout
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "padding": 12,
+              }
+            }>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "fontSize": 12,
+                    "lineHeight": 16,
+                  },
+                  Object {
+                    "color": "#1a906f",
+                  },
+                ]
+              }>
+              Now that we know who you are, I know who I am. I\`m not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain\`s going to be? He\`s the exact opposite of the hero. And most times they\`re friends, like you and me! I should\`ve known way back when... You know why, David? Because of the kids. They called me Mr Glass.
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "borderTopWidth": 1,
+                  "flexDirection": "row",
+                  "justifyContent": "flex-end",
+                  "padding": 12,
+                },
+                Object {
+                  "borderColor": "#a9dfd0",
+                },
+              ]
+            }>
+            <View
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 12,
+                  },
+                ]
+              }>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "fontSize": 13,
+                    },
+                    Object {
+                      "color": "#1a906f",
+                    },
+                  ]
+                }>
+                <Text
+                  accessible={true}
+                  allowFontScaling={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "color": undefined,
+                        "fontSize": 12,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                    ]
+                  }>
+                  
+                </Text>
+                 Num. of exercises: 7
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 12,
+                  },
+                ]
+              }>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "fontSize": 13,
+                    },
+                    Object {
+                      "color": "#1a906f",
+                    },
+                  ]
+                }>
+                <Text
+                  accessible={true}
+                  allowFontScaling={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "color": undefined,
+                        "fontSize": 12,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                    ]
+                  }>
+                  
+                </Text>
+                 Avg. time: 1h 15m
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "borderRadius": 2,
+                "borderWidth": 1,
+                "marginBottom": 12,
+                "shadowColor": "#2a2a2a",
+                "shadowOffset": Object {
+                  "height": 2,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.1,
+              },
+              Object {
+                "backgroundColor": "#f4f3e6",
+                "borderColor": "#dfd8aa",
+              },
+            ]
+          }>
+          <View
+            style={
+              Array [
+                Object {
+                  "borderBottomWidth": 1,
+                  "padding": 12,
+                },
+                Object {
+                  "borderColor": "#dfd8aa",
+                },
+              ]
+            }>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                  },
+                  Object {
+                    "color": "#989317",
+                  },
+                ]
+              }>
+              Chest
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "padding": 12,
+              }
+            }>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "fontSize": 12,
+                    "lineHeight": 16,
+                  },
+                  Object {
+                    "color": "#989317",
+                  },
+                ]
+              }>
+              Like you, I used to think the world was this great place where everybody lived by the same standards I did, then some kid with a nail showed me I was living in his world, a world where chaos rules not order, a world where righteousness is not rewarded.
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "borderTopWidth": 1,
+                  "flexDirection": "row",
+                  "justifyContent": "flex-end",
+                  "padding": 12,
+                },
+                Object {
+                  "borderColor": "#dfd8aa",
+                },
+              ]
+            }>
+            <View
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 12,
+                  },
+                ]
+              }>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "fontSize": 13,
+                    },
+                    Object {
+                      "color": "#989317",
+                    },
+                  ]
+                }>
+                <Text
+                  accessible={true}
+                  allowFontScaling={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "color": undefined,
+                        "fontSize": 12,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                    ]
+                  }>
+                  
+                </Text>
+                 Num. of exercises: 7
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 12,
+                  },
+                ]
+              }>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "fontSize": 13,
+                    },
+                    Object {
+                      "color": "#989317",
+                    },
+                  ]
+                }>
+                <Text
+                  accessible={true}
+                  allowFontScaling={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "color": undefined,
+                        "fontSize": 12,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                    ]
+                  }>
+                  
+                </Text>
+                 Avg. time: 1h 15m
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "borderRadius": 2,
+                "borderWidth": 1,
+                "marginBottom": 12,
+                "shadowColor": "#2a2a2a",
+                "shadowOffset": Object {
+                  "height": 2,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.1,
+              },
+              Object {
+                "backgroundColor": "#e6f4f0",
+                "borderColor": "#a9dfd0",
+              },
+            ]
+          }>
+          <View
+            style={
+              Array [
+                Object {
+                  "borderBottomWidth": 1,
+                  "padding": 12,
+                },
+                Object {
+                  "borderColor": "#a9dfd0",
+                },
+              ]
+            }>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                  },
+                  Object {
+                    "color": "#1a906f",
+                  },
+                ]
+              }>
+              Legs
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "padding": 12,
+              }
+            }>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "fontSize": 12,
+                    "lineHeight": 16,
+                  },
+                  Object {
+                    "color": "#1a906f",
+                  },
+                ]
+              }>
+              You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder. After the avalanche, it took us a week to climb out. Now, I don\`t know exactly when we turned on each other, but I know that seven of us survived the slide... and only five made it out. Now we took an oath, that I\`m breaking now. We said we\`d say it was the snow that killed the other two, but it wasn\`t. Nature is lethal but it doesn\`t hold a candle to man.
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "borderTopWidth": 1,
+                  "flexDirection": "row",
+                  "justifyContent": "flex-end",
+                  "padding": 12,
+                },
+                Object {
+                  "borderColor": "#a9dfd0",
+                },
+              ]
+            }>
+            <View
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 12,
+                  },
+                ]
+              }>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "fontSize": 13,
+                    },
+                    Object {
+                      "color": "#1a906f",
+                    },
+                  ]
+                }>
+                <Text
+                  accessible={true}
+                  allowFontScaling={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "color": undefined,
+                        "fontSize": 12,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                    ]
+                  }>
+                  
+                </Text>
+                 Num. of exercises: 7
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 12,
+                  },
+                ]
+              }>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "fontSize": 13,
+                    },
+                    Object {
+                      "color": "#1a906f",
+                    },
+                  ]
+                }>
+                <Text
+                  accessible={true}
+                  allowFontScaling={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "color": undefined,
+                        "fontSize": 12,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                    ]
+                  }>
+                  
+                </Text>
+                 Avg. time: 1h 15m
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "borderRadius": 2,
+                "borderWidth": 1,
+                "marginBottom": 12,
+                "shadowColor": "#2a2a2a",
+                "shadowOffset": Object {
+                  "height": 2,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.1,
+              },
+              Object {
+                "backgroundColor": "#eae6f4",
+                "borderColor": "#b8a9df",
+              },
+            ]
+          }>
+          <View
+            style={
+              Array [
+                Object {
+                  "borderBottomWidth": 1,
+                  "padding": 12,
+                },
+                Object {
+                  "borderColor": "#b8a9df",
+                },
+              ]
+            }>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "fontSize": 16,
+                  },
+                  Object {
+                    "color": "#53379a",
+                  },
+                ]
+              }>
+              One more workout
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "padding": 12,
+              }
+            }>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "fontSize": 12,
+                    "lineHeight": 16,
+                  },
+                  Object {
+                    "color": "#53379a",
+                  },
+                ]
+              }>
+              Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that\`s what you see at a toy store. And you must think you\`re in a toy store, because you\`re here shopping for an infant named Jeb.
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "borderTopWidth": 1,
+                  "flexDirection": "row",
+                  "justifyContent": "flex-end",
+                  "padding": 12,
+                },
+                Object {
+                  "borderColor": "#b8a9df",
+                },
+              ]
+            }>
+            <View
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 12,
+                  },
+                ]
+              }>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "fontSize": 13,
+                    },
+                    Object {
+                      "color": "#53379a",
+                    },
+                  ]
+                }>
+                <Text
+                  accessible={true}
+                  allowFontScaling={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "color": undefined,
+                        "fontSize": 12,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                    ]
+                  }>
+                  
+                </Text>
+                 Num. of exercises: 7
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 12,
+                  },
+                ]
+              }>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "fontSize": 13,
+                    },
+                    Object {
+                      "color": "#53379a",
+                    },
+                  ]
+                }>
+                <Text
+                  accessible={true}
+                  allowFontScaling={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "color": undefined,
+                        "fontSize": 12,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                    ]
+                  }>
+                  
+                </Text>
+                 Avg. time: 1h 15m
+              </Text>
+            </View>
+          </View>
+        </View>
+      </ScrollView>
     </RCTNavItem>
   </RCTNavigator>
 </View>

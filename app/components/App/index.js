@@ -4,7 +4,7 @@
 
 import React, {Component} from 'react'
 import {StyleSheet, NavigatorIOS} from 'react-native'
-import {route as homeScreenRoute} from 'app/components/screens/HomeScreen'
+import {route as homeScreenRoute} from 'app/screens/HomeScreen'
 
 export default class App extends Component {
   render () {
@@ -22,6 +22,7 @@ const styles = StyleSheet.create({
     flex: 1
   },
   NavigatorInner: {
-    marginTop: 64
+    marginTop: 64,
+    justifyContent: 'flex-start'
   }
 })

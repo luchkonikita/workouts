@@ -1,1 +1,1 @@
-require('react-native-mock/mock')
+// NOTE: Add any needed setup here
